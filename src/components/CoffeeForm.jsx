@@ -52,6 +52,7 @@ export default function CoffeeForm(props) {
             setSelectedCoffee(null)
             setHour(0)
             setCoffeeCost(0)
+            
         } catch(err) {
             console.log(err.message)
         }
