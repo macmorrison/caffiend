@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['firebase']
+      external: ['firebase'] // Add this line to externalize Firebase
     }
   }
 });
